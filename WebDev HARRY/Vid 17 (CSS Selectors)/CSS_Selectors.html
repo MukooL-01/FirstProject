@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        .Red{
+            background-color: red;
+        }
+        #Purple{
+            background-color: purple;
+        }
+        div>p{
+            background-color: blue;
+        }
+        .L{
+            background-color: aqua;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        a:visited{
+            color: chartreuse;
+        }
+        a:active{
+            color: green;
+            background-color: darkgreen;
+        }
+        a:link{
+            color: red;
+            background-color: black;
+        }
+        a:hover{
+            color: darkorange;
+            background-color: gold;
+        }
+    </style>
+</head>
+<body>
+    <div class="Red">
+        I am a hungry Learner
+    </div>
+    <div class="L">What about You?</div>
+    <div id="Purple">Hello This sentence will be Purple</div>
+    <div><p>I am a para under div</p></div>
+    <a target="_blank" href="https://www.uber.com">Go To Uber </a>
+</body>
+</html>
