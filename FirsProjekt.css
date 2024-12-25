@@ -9,16 +9,26 @@
             border: 2px solid rgb(22, 182, 231);
             text-align: center;
             border-radius: 10px;
+            color: cornflowerblue;
+            position: relative;
+            top: 20px;
         }
 
         .box {
             padding: 0px;
             margin: 10px;
-            width: 35vw;
+            width: 40vw;
             height: 15vh;
             font-weight: bolder;
+            color:lightseagreen ;
+            position: relative;
+            left: 30vw;
         }
-
+        .box2 li{
+            border: 2px solid rgb(23, 174, 219);
+            position:relative;
+            left: 25vw;
+        }
         header nav ul li {
             list-style: none;
             padding: 20px;
